@@ -14,113 +14,17 @@ int main()
 	
 	
 		
-	/*	for(int i=5;i<=100;i++)
-		{
+	
+		  
 		
-		line(600,400,i,i);
-		setcolor(BLACK);
-	
-		setfillstyle(i%10,YELLOW);
-		floodfill(i,i,RED);
-		delay(100);
-	}*/
-	   
-	   
-	   
-	   
-	    /*int m=100;
-	
-		for(int i=1;i<=179;i++)
-		{
-			
-		 line(500-(i/2),500+((3*i)/2),500+(i/2),500-i);
-		  arc(500,500,90+i,90-i,i);
-		  setcolor(RED);
-		 
-		   delay(50);
-		
-	}   setcolor(WHITE);
-		 line(590,320,540,350);
-		  line(590,320,620,370);*/
-		  
-		  
-		  
-		  
-		/*  ellipse(700,300,0,360,200,100);
-		  for(int i=1;i<=200 ;i++)
-		  {
-		  
-		  fillellipse(700,300,i,i);
-		setcolor(i);
-		  delay(50);
-		  
-	}*/
-	
-	
-	
-		 /* setcolor(RED);
-		  setfillstyle(3,YELLOW);
-		  circle(100,100,50);
-		  floodfill(100,300,RED);
-		  */
-		  
-		 
-		 
-		 
-		 
-		  
-		/* x=getmaxx();
-		 y=getmaxy();
-		 while(!kbhit())
-		 {
-		 	i++;
-		 	
-		 	setfillstyle(random(i),random(30));
-		 	
-		 	circle(xx=random(x),yy=random(y),random(30));
-		 	setfillstyle(random(i),random(30));
-		 	floodfill(xx,yy,getmaxcolor());
-      		delay(200);		 	
-		 	
-		 	
-		 }*/
 		  
 		  
 		  
 		  
 		 
-		 /* int x=getmaxx()/2;
-		  int y=30;
-		  int i, flag=0;
-		  while(!kbhit())
-		  {
+		 
 		  	
-		  	if(y>=getmaxy()-30||y<=30)
-		  	flag=!flag;
-		  	
-		  	setcolor(RED);
-		  	setfillstyle(1,RED);
-		  	circle(x,y,30);
-		  	floodfill(x,y,RED);
-		  	
-		  	
-		  	delay(50);
-		  	cleardevice();
-		  	if(flag)
-		  	{
-		  		y=y+5;
-		  		
-		  	}
-		  	
-		  	else
-		  	{y=y-5;
-			  }
-		  	
-		  	
-		  	
-		  	
-		  	
-		  }*/
+		  
 		  
 		  
 		  for(int i=1;i<500;i++)
