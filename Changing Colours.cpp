@@ -1,4 +1,3 @@
-
 #include<graphics.h>
 
 
@@ -11,21 +10,6 @@ int main()
 
 	initgraph(&gd, &gm, (char*)"");
 
-	
-	
-		
-	
-		  
-		
-		  
-		  
-		  
-		  
-		 
-		 
-		  	
-		  
-		  
 		  
 		  for(int i=1;i<500;i++)
 		  {
@@ -278,71 +262,15 @@ int main()
 		  delay(50);
 		  
 		  
-		  
-		 /*  setcolor(6);
-				line(1050,430,1300,430);
-		 line(1300,430,1150,670);
-		 line(1150,670,1050,670);
-		 line(1050,670,1050,430);
-			 setfillstyle(1,6);
-		  floodfill(1100,500,6);
-		  
-		   setcolor(6);
-				line(1050,500,1050,670);
-		 line(1050,670,900,670);
-		 line(900,670,900,600);
-		 line(900,600,1050,500);
-			 setfillstyle(1,6);
-		  floodfill(1000,650,6);
-		  
-		   setcolor(6);
-				line(900,600,900,670);
-		 line(900,670,600,670);
-		 line(600,670,600,600);
-		 line(600,600,900,600);
-			 setfillstyle(1,6);
-		  floodfill(700,650,6);
-		  
-		   setcolor(6);
-				line(600,430,550,430);
-		 line(550,430,400,670);
-		 line(400,670,600,670);
-		 line(600,670,600,430);
-			 setfillstyle(1,6);
-		  floodfill(550,600,6);
-		  
-		  */
-		  
+	} 
 		  
 	}
-		  
-		  
-		  
-		  
-	}
-		  
-		  
-	
-		  
-		  
-		  
-		  
-		  
-		  
 		  
 		
 	
 		getch();
 
 	
-	
-	
-	
-	
 	closegraph();
 
-	
-	
-	
-	
 }
